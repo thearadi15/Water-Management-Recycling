@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission H2O - Water Footprint Quiz</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <header><img src="Gemini_Generated_Image_2oc0po2oc0po2oc0-removebg-preview.png" alt="Water and Cityscape">
+        <h1>Mission H2O: Helping You Make Every Drop Matter</h1>
+    </header>
+  <nav>
+    <ul>
+        <li><a href="mainpage.html" class="nav-link">Home</a></li>
+        <li><a href="#" class="nav-link">About Us</a></li>
+        <li><a href="#" class="nav-link">Water Management</a></li>
+        <li><a href="#" class="nav-link">Water Recycling</a></li>
+        <li><a href="#" class="nav-link">Solutions</a></li>
+        <li><a href="#" class="nav-link">Join Us</a></li>
+        <li><a href="#" class="nav-link">Blog</a></li>
+        <li><a href="#" class="nav-link">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <p>Take this short quiz to estimate your daily water footprint and discover ways to conserve!</p>
+    <div id="quiz-container">
+      <ul>
+        <li>
+          <h3>How often do you shower?</h3>
+          <ul>
+            <li><input type="radio" name="shower" value="5"> Daily (5 minutes)</li>
+            <li><input type="radio" name="shower" value="7"> Daily (7 minutes)</li>
+            <li><input type="radio" name="shower" value="10"> Every other day (10 minutes)</li>
+            <li><input type="radio" name="shower" value="3"> 3 times a week (10 minutes)</li>
+          </ul>
+        </li>
+        <li>
+          <h3>How often do you brush your teeth?</h3>
+          <ul>
+            <li><input type="radio" name="teeth" value="2"> Twice a day (2 minutes each)</li>
+            <li><input type="radio" name="teeth" value="1"> Once a day (2 minutes)</li>
+            <li><input type="radio" name="teeth" value="0.5"> Less than once a day (2 minutes)</li>
+          </ul>
+        </li>
+        </ul>
+      <button id="submit-btn">Calculate My Footprint</button>
+    </div>
+    <div id="result-container" style="display: none;">
+      <h2>Your Daily Water Footprint: <span id="footprint-value"></span> gallons</h2>
+      <p>Based on your answers, your estimated daily water footprint is <span id="footprint-text"></span>. Here are some tips to reduce your footprint:</p>
+      <ul id="tips-list">
+        </ul>
+      <a href="#">Learn More About Water Conservation</a>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Mission H2O. All Rights Reserved.</p>
+  </footer>
+  <script src="quiz.js"></script>
+</body>
+</html>

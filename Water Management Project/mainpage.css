@@ -1,0 +1,306 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .hero-video {
+    border-top-left-radius: 100%;
+    position: relative; /* Ensures video stays positioned */
+    height: 50vh;  /* Adjust height as desired */
+    /* Other styles for the video section */
+  }
+  .video-container {
+    position: relative; /* Ensures video stays positioned */
+    height: 500px;  /* Adjust height as desired */
+  }
+  .split-section {
+    display: flex;
+    height: 65vh; /* 80% of viewport height */
+  }
+  #backgroundVideo {
+    image-resolution: 1904*457;
+    width: 100%;  /* Stretches video horizontally */
+    height: 100%; /* Fills the container's height */
+  }
+  .hero-text {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #water-fact {
+    font-size: 1.2em;  /* Adjust font size as desired */
+    color: #333;  /* Text color */
+    margin-bottom: 15px;
+    
+    /* Animation Properties */
+    animation: text-reveal 0.8s ease-in-out forwards;
+  }
+  
+  @keyframes text-reveal {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Optional: Add hover effect to the statistic value (replace X) */
+  #water-fact span {
+    color: rgb(0, 81, 152);  /* Change color for the statistic value */
+  }
+  
+  #water-fact span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .hero {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    background-color: rgb(0, 81, 152); /* Blue background */
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .hero-btn:hover {
+    background-color: #000; /* Black on hover */
+  }
+  .challenges-section {
+    display: flex; /* Arranges cards horizontally */
+    flex-wrap: wrap; /* Allows cards to wrap to next line */
+    justify-content: space-around; /* Evenly distributes cards */
+    margin: 50px auto; /* Adds margin for spacing */
+    max-width: 1000px; /* Sets a maximum width for responsiveness */
+  }
+  
+  .challenge-card {
+    background-color: rgb(0, 81, 152); /* Light background color */
+    border-radius: 5px;  /* Rounded corners */
+    padding: 20px;
+    margin: 10px;
+    width: 300px; /* Adjust width as desired */
+    text-align: center; /* Center text within cards */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    transition: transform 0.2s ease-in-out; /* Smooth hover animation */
+  }
+  
+  .challenge-card h3 {
+    font-size: 1.2em; /* Adjust font size for headings */
+    margin-bottom: 10px;
+  }
+  
+  .challenge-card p {
+    font-size: 0.9em; /* Adjust font size for paragraph text */
+    line-height: 1.5; /* Improves readability */
+  }
+  
+  .challenge-card img {
+    width: 100%; /* Images fill card width */
+    height: 150px; /* Adjust image height as desired */
+    object-fit: cover; /* Maintains aspect ratio (may crop) */
+    margin-bottom: 10px; /* Adds space below image */
+  }
+  
+  .challenge-card:hover {
+    transform: translateY(-5px); /* Slight upward movement on hover */
+  }
+  
+  .cta-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 300px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    background-color: rgb(0, 81, 152); /* Light blue */
+    color: #f5f5f5; /* White text as requested */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .cta-box:hover {
+    background-color: rgb(0, 81, 152); /* Darker blue on hover */
+    transform: scale(1.02); /* Slight zoom on hover */
+  }
+  
+  .cta-btn {
+    text-decoration: none; /* Remove underline from link */
+    font-weight: bold; /* Bold text */
+    color:#f5f5f5;
+  }
+
+  .donate-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 300px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    background-color: #006c55; /* Light blue */
+    color: #f5f5f5; /* White text as requested */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .donate-box:hover {
+    background-color: rgb(0, 81, 152); /* Darker blue on hover */
+    transform: scale(1.02); /* Slight zoom on hover */
+  }
+  
+  .donate-btn {
+    text-decoration: none; /* Remove underline from link */
+    font-weight: bold; /* Bold text */
+    color:#f5f5f5;
+  }
+
+  header {
+    text-align: left;
+    padding: 6px;
+    image-rendering: auto; 
+  }
+  header img {
+    max-width: 200px;  /* Adjust value to your desired logo size */
+    max-height: 200px; /* Adjust value to your desired logo size */
+  }
+   header h1 {;
+    font-size: 3em;
+    margin-left: 18%;
+    margin-top: -7%;
+
+  }
+  .content-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3em; /* Adjust font size for H1 */
+    color: rgb(0, 81, 152); /* Light blue color */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add space below H1 */
+  }
+  
+  p {
+    font-size: 1.2em; /* Adjust font size for paragraph */
+    font-style: italic; /* Italic text */
+    color: #666; /* Grayish color */
+  }
+  
+  .success-story {
+    display: flex; /* Enables side-by-side positioning */
+    width: 100%; /* Fills viewport width */
+  }
+  
+  .image-container,
+  .text-container {
+    flex: 1; /* Ensures equal width distribution */
+    padding: 20px;
+  }
+  
+  .image-container {
+    position: relative; /* Ensures image stays positioned */
+  }
+  
+  .image-container img {
+    width: 100%; /* Stretches image to container width */
+    height: auto; /* Maintains aspect ratio */
+    object-fit: cover; /* Crops excess if needed */
+  }
+  
+  .text-container {
+    background-color: #f5f5f5; /* Light background color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .text-container h2 {
+    font-size: 2.5em; /* Adjust font size for heading */
+    margin-bottom: 10px; /* Add space below heading */
+    color: rgb(0, 81, 152); /* Light blue color */
+  }
+  
+  .text-container p {
+    font-size: 0.9em; /* Adjust font size for paragraph */
+    line-height: 1.5; /* Improves readability */
+  }
+  
+  .text-container .learn-more {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-left: 40%;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9em; /* Adjust font size for button text */
+    color: #fff;
+    background-color: rgb(0, 81, 152); /* Light blue background */
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .text-container .learn-more:hover {
+    background-color: rgb(0, 81, 152); /* Darker blue on hover */
+  }
+  
+  /* Unique Text Reveal Animation (Optional) */
+  .text-container p {
+    opacity: 0; /* Initially hide the paragraph content */
+    animation: text-reveal 0.8s ease-in-out forwards;
+    font-size: large;
+  }
+  
+  @keyframes text-reveal {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  nav {
+    background-color: rgb(0, 81, 152);
+    padding: 10px;
+    margin-left: 0%;
+    
+  }
+  .nav-link {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Add some padding for aesthetics */
+    display: inline-block; /* Ensures inline behavior */
+  }
+  .nav-link:hover {
+    background-color: black; /* Set background to black on hover */
+    color: #ddd; /* Change text color to light gray on hover */
+  }
+    
+  nav ul {
+    list-style: none;
+    margin: 4px;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 40px;
+    display: inline;
+    font-display: swap;
+    margin-right: 20px;
+  }
+  /* Add more styles for other elements */
+  

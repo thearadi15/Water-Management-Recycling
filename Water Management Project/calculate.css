@@ -1,0 +1,158 @@
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+header {
+    text-align: left;
+    padding: 6px;
+    image-rendering: auto; 
+  }
+  header img {
+    max-width: 200px;  /* Adjust value to your desired logo size */
+    max-height: 200px; /* Adjust value to your desired logo size */
+  }
+   header h1 {;
+    font-size: 3em;
+    margin-left: 18%;
+    margin-top: -7%;
+
+  }
+  h1 {
+    font-size: 3em; /* Adjust font size for H1 */
+    color: rgb(0, 81, 152); /* Light blue color */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add space below H1 */
+  }
+  nav {
+    background-color: rgb(0, 81, 152);
+    padding: 10px;
+    margin-left: 0%;
+    
+  }
+  .nav-link {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline */
+    padding: 10px 20px; /* Add some padding for aesthetics */
+    display: inline-block; /* Ensures inline behavior */
+  }
+  .nav-link:hover {
+    background-color: black; /* Set background to black on hover */
+    color: #ddd; /* Change text color to light gray on hover */
+  }
+    
+  nav ul {
+    list-style: none;
+    margin: 4px;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-left: 40px;
+    display: inline;
+    font-display: swap;
+    margin-right: 20px;
+  }
+  /* Add more styles for other elements */
+  
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0, 0, 0, 0.6); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* 10% from the top and centered */
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    width: 80%; /* Could be more or less, depending on screen size */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+  }
+  
+  /* Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Button Styles */
+  button {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    width: 300px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    background-color: #006c55; /* Light blue */
+    color: #f5f5f5; /* White text as requested */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(235, 235, 235, 0.071);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    }
+  
+  button:hover {
+    background-color: rgb(0, 81, 152);
+    color:#f5f5f5;
+  }
+  
+
+  .calculate-footprint {
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px rgba(235, 235, 235, 0.071);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  p {
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-left: 15%;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    flex: 0 0 120px;
+    margin-right: 10px;
+  }
+  
+  input[type="number"] {
+    flex: 1;
+    padding: 7px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
